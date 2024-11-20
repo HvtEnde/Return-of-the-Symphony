@@ -595,7 +595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: 56471879d8c53644090c23608c646c8d,
     type: 3}
-  m_NotificationBehavior: 2
+  m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -684,6 +684,8 @@ MonoBehaviour:
   cam: {fileID: 1406582669}
   walkSpeed: 10
   jumpPower: 5
+  hoverForce: 2
+  maxHoverTime: 2
 --- !u!54 &1749431689
 Rigidbody:
   m_ObjectHideFlags: 0

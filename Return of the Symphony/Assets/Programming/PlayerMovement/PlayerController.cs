@@ -22,119 +22,149 @@
         private float hoverTimeRemaining;
         private bool isHovering = false;
         bool isGrounded = true;
+        
         #endregion
 
 
 
-        /// <summary>
-        /// Locks the mouse when the scene starts
-        /// </summary>
-        void Start()
-        {
-            Cursor.lockState = CursorLockMode.Locked;
+            /// <summary>
+            /// Locks the mouse when the scene starts
+            /// </summary>
+            void Start()
+            {
+                Cursor.lockState = CursorLockMode.Locked;
 
-            myRb = GetComponent<Rigidbody>();
+                myRb = GetComponent<Rigidbody>();
 
-            hoverTimeRemaining = maxHoverTime;
-        }
+            }
 
 
-        /// <summary>
-        /// Calls on jump and run, also allows the player to move the camera
-        /// </summary>
-        private void Update()   
-        {
-            Run();
+            /// <summary>
+            /// Calls on jump and run, also allows the player to move the camera
+            /// </summary>
+            private void Update()   
+            {
+                Run();
 
       
           
-            if (Input.GetButtonDown("Jump") && isGrounded == true)
-            {
+                if (Input.GetButtonDown("Jump") && isGrounded == true)
+                {
 
-                Jump();
+                    Jump();
+
+                }
+
+                if (Input.GetButton("Jump") && !isGrounded)
+                {
+                    Hover();
+                }
+
+                if (Input.GetButtonUp("Jump"))
+                {
+                    StopHovering();
+                }
+
+
+                float mouseX = Input.GetAxis("Mouse X") * mouseSens * Time.deltaTime;
+                float mouseY = Input.GetAxis("Mouse Y") * mouseSens * Time.deltaTime;
+
+                xRotation -= mouseY;
+                xRotation = Mathf.Clamp(xRotation, -90f, 100f);
+
+                cam.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+                transform.Rotate(Vector3.up * mouseX);
+
 
             }
 
-            if (Input.GetButton("Jump") && !isGrounded)
+            private void FixedUpdate()
             {
-                Hover();
+                
+                Run();
+
+               
+                if (Input.GetButton("Jump") && !isGrounded)
+                {
+                    Hover();
+                }
+                else
+                {
+                    StopHovering();
+                }
             }
 
-            if (Input.GetButtonUp("Jump"))
+
+
+            void Run()
             {
-                StopHovering();
-            }
-
-
-        float mouseX = Input.GetAxis("Mouse X") * mouseSens * Time.deltaTime;
-            float mouseY = Input.GetAxis("Mouse Y") * mouseSens * Time.deltaTime;
-
-            xRotation -= mouseY;
-            xRotation = Mathf.Clamp(xRotation, -90f, 100f);
-
-            cam.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-            transform.Rotate(Vector3.up * mouseX);
-
-
-        }
-
-        /// <summary>
-        /// Allows the players to walk
-        /// </summary>
-        void Run()
-        {
-            Vector3 playerVelocity = new Vector3(moveInput.x * walkSpeed, myRb.velocity.y, moveInput.y * walkSpeed);
-            myRb.velocity = transform.TransformDirection(playerVelocity);
-        }
-
-        /// <summary>
-        /// Allows the player to jump
-        /// </summary>
-        void Jump()
-        {
-            myRb.AddForce(new Vector3(0, jumpPower, 0), ForceMode.Impulse);
             
-            isGrounded = false;
+                Vector3 currentVelocity = myRb.velocity;
 
-            hoverTimeRemaining = maxHoverTime;
-        }
-
-        void Hover()
-        {
-            if (hoverTimeRemaining > 0)
-            {
-                myRb.AddForce(Vector3.up * hoverForce, ForceMode.Force);
-                hoverTimeRemaining -= Time.deltaTime; 
-                isHovering = true;
+            
+                Vector3 playerVelocity = new Vector3(moveInput.x * walkSpeed, currentVelocity.y, moveInput.y * walkSpeed);
+                myRb.velocity = transform.TransformDirection(playerVelocity);
             }
-        }
-        
-        void StopHovering()
-        {
-            isHovering = false;
-        }
 
-        /// <summary>
-        /// Forces player to return to the ground before jumping again
-        /// </summary>
-        /// <param name="collision"></param>
-        private void OnCollisionEnter(Collision collision)
-        {
-            if(collision.gameObject.tag == ("Grounded"))
+
+
+
+            /// <summary>
+            /// Allows the player to jump
+            /// </summary>
+            void Jump()
             {
-                isGrounded = true;
+                myRb.AddForce(new Vector3(0, jumpPower, 0), ForceMode.Impulse);
+            
+                isGrounded = false;
+
                 hoverTimeRemaining = maxHoverTime;
             }
-        }
 
-        /// <summary>
-        /// Gets the vector 2 of move input
-        /// </summary>
-        /// <param name="value"></param>
-        void OnMove(InputValue value)
-        {
-             moveInput = value.Get<Vector2>();
-        }
+            void Hover()
+            {
+                
+                if (hoverTimeRemaining > 0)
+                {
+                    
+                    Vector3 velocity = myRb.velocity;
+                    velocity.y = Mathf.Max(velocity.y, -1f);  
+                    myRb.velocity = velocity;
+
+                    
+                    hoverTimeRemaining -= Time.fixedDeltaTime;
+                    isHovering = true;
+                }
+            }
+
+
+
+            void StopHovering()
+            {
+                isHovering = false;
+            }
+
+            /// <summary>
+            /// Forces player to return to the ground before jumping again
+            /// </summary>
+            /// <param name="collision"></param>
+            private void OnCollisionEnter(Collision collision)
+            {
+                if(collision.gameObject.tag == ("Grounded"))
+                {
+                    isGrounded = true;
+                    hoverTimeRemaining = maxHoverTime;
+                }
+            }
+
+            /// <summary>
+            /// Gets the vector 2 of move input
+            /// </summary>
+            /// <param name="value"></param>
+            void OnMove(InputValue value)
+            {
+                 moveInput = value.Get<Vector2>();
+            }
 
     
 
