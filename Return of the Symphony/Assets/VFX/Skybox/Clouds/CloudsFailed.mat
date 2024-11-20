@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StarsMat
-  m_Shader: {fileID: -6465566751694194690, guid: 7f36a0368a2af884cbcae97e28a21690,
+  m_Name: CloudsFailed
+  m_Shader: {fileID: -6465566751694194690, guid: a726b9f6f4aec994395412275d5e008a,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -38,23 +38,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Density: 100
-    - _Density_1: 100
-    - _Density_2: 100
+    - _AdditionalPower: 42
+    - _FresnelPower: 3
+    - _NoiseScale: 20.8
+    - _PushOut: 1.2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 100
-    - _Scale_1: 100
-    - _Scale_2: 100
-    - _Speed: 0.001
-    - _Speed_1: 0.0015
-    - _Speed_2: 0.002
+    - _ScrollSpeed: 0.05
     m_Colors:
-    - _Color: {r: 227.31613, g: 167.88057, b: 253.01428, a: 0}
-    - _Color_1: {r: 79.137276, g: 168.42706, b: 168.89702, a: 0}
-    - _Color_2: {r: 315.17303, g: 205.42445, b: 82.26213, a: 0}
+    - _PrimaryColor: {r: 4.237095, g: 4.237095, b: 4.237095, a: 0}
+    - _SecondaryColor: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3912229919885183908
+--- !u!114 &8512807421020988055
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
