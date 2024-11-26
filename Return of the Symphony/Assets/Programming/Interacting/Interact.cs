@@ -19,7 +19,7 @@ public class Interact : MonoBehaviour
 
     private void OnDisable()
     {
-        
+        _playerInput.actions["Interact"].performed -= OnInteract;
     }
 
     private void OnInteract(InputAction.CallbackContext callbackcontext)
