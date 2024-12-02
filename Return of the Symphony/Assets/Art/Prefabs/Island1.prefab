@@ -63,11 +63,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 45b99d924eba56a4d94f17a9620012fe, type: 2}
+    - target: {fileID: -4960587174123777438, guid: 5cd6415e2fce2674687ecfd4f6394c66,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64154837c4a234f49874af532c57e516, type: 2}
     - target: {fileID: -3060994407462513742, guid: 5cd6415e2fce2674687ecfd4f6394c66,
         type: 3}
       propertyPath: m_Name
       value: MusicNote00
       objectReference: {fileID: 0}
+    - target: {fileID: -2272056832402244564, guid: 5cd6415e2fce2674687ecfd4f6394c66,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 420d2b3001f33644b907482866e9c138, type: 2}
     - target: {fileID: 919132149155446097, guid: 5cd6415e2fce2674687ecfd4f6394c66,
         type: 3}
       propertyPath: m_Name
@@ -78,6 +88,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2049890475960609931, guid: 5cd6415e2fce2674687ecfd4f6394c66,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7f54367207976b488c151738a9b583a, type: 2}
     - target: {fileID: 2689129394902043370, guid: 5cd6415e2fce2674687ecfd4f6394c66,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -87,7 +102,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 362d7c036408aa644bb3b70befbe84a6, type: 2}
+      objectReference: {fileID: 2100000, guid: eb438e766483b8a45b6bc3badda31348, type: 2}
     - target: {fileID: 7095715785703292897, guid: 5cd6415e2fce2674687ecfd4f6394c66,
         type: 3}
       propertyPath: m_Name
