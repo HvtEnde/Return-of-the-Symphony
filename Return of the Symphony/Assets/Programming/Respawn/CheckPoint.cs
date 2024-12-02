@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
-    private RespawnScript respawn;
+    public RespawnScript respawn;
 
     void Awake()
     {
