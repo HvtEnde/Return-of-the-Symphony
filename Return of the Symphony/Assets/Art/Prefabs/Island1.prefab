@@ -63,6 +63,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 45b99d924eba56a4d94f17a9620012fe, type: 2}
+    - target: {fileID: -3060994407462513742, guid: 5cd6415e2fce2674687ecfd4f6394c66,
+        type: 3}
+      propertyPath: m_Name
+      value: MusicNote00
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5cd6415e2fce2674687ecfd4f6394c66,
         type: 3}
       propertyPath: m_Name
@@ -72,6 +77,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689129394902043370, guid: 5cd6415e2fce2674687ecfd4f6394c66,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a01d004e47861a49b64ae3be4a794cf, type: 2}
+    - target: {fileID: 3855073655484056057, guid: 5cd6415e2fce2674687ecfd4f6394c66,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 362d7c036408aa644bb3b70befbe84a6, type: 2}
+    - target: {fileID: 7095715785703292897, guid: 5cd6415e2fce2674687ecfd4f6394c66,
+        type: 3}
+      propertyPath: m_Name
+      value: MusicNoteHard
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745539959248975159, guid: 5cd6415e2fce2674687ecfd4f6394c66,
+        type: 3}
+      propertyPath: m_Name
+      value: MusicNote0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
