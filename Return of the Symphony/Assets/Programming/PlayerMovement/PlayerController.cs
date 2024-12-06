@@ -22,7 +22,7 @@
         private float hoverTimeRemaining;
         private bool isHovering = false;
         bool isGrounded = true;
-        
+        private bool doubleJump;
         #endregion
 
 
@@ -51,7 +51,7 @@
                 if (Input.GetButtonDown("Jump") && isGrounded == true)
                 {
 
-                    Jump();
+                    Jump(); 
 
                 }
 
