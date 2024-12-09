@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Grounded
   - CheckPoint
+  - PPCheckPoint
   layers:
   - Default
   - TransparentFX
