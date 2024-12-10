@@ -10,6 +10,7 @@ public class Settings : MonoBehaviour
 {
     [Header("VolumeSliders")]
     public AudioMixer audioMixer;
+    public Slider masterSlider;
     public Slider musicSlider;
     public Slider sfxSlider;
 
@@ -43,7 +44,16 @@ public class Settings : MonoBehaviour
         {
             PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value);
         }
-        
+
+        if (PlayerPrefs.HasKey("MasterVolume"))
+        {
+            masterSlider.value = PlayerPrefs.GetFloat("MasterVolume", 1f);
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("MasterVolume", masterSlider.value);
+        }
+
 
         resolutions = Screen.resolutions;
         filteredResolution = new List<Resolution>();
@@ -96,6 +106,12 @@ public class Settings : MonoBehaviour
     {
         audioMixer.SetFloat("SFXVol", Mathf.Log10(sliderValue) * 20);
         PlayerPrefs.SetFloat("SFXVolume", sliderValue);
+    }
+
+    public void SetOverall(float sliderValue)
+    {
+        audioMixer.SetFloat("MasterVol", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("MasterVolume", sliderValue);
     }
 
     public void SetFullScreen(bool isFullScreen)
