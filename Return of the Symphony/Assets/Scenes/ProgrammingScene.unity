@@ -554,6 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lives: 3
+  lossScreen: {fileID: 0}
 --- !u!1 &247512514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1749431682}
   respawnPoint: {fileID: 1687495976}
+  playerManager: {fileID: 139941900}
 --- !u!1 &982209798
 GameObject:
   m_ObjectHideFlags: 0
