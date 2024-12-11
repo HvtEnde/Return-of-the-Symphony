@@ -1,22 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
     public RespawnScript respawn;
 
-    void Awake()
+    public Transform checkPoint;
+    public bool reachedCheckPoint;
+
+    private void Start()
     {
-        respawn = GameObject.FindGameObjectWithTag("Respawn").GetComponent<RespawnScript>();
+        if (respawn == null)
+        {
+            Debug.LogWarning("respawnscript not linked in ChechPoints");
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
-        {
-            respawn.respawnPoint = this.gameObject;
+        if (other.tag != "Player") return;
 
-        }    
+        if (!reachedCheckPoint)
+        {
+            respawn.respawnPoint = checkPoint;
+
+            reachedCheckPoint = true;
+        }
     }
+
+
 }

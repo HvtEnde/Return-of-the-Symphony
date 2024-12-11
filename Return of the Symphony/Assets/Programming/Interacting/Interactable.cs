@@ -1,12 +1,24 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public interface IInteractable
+public class Interactable : MonoBehaviour, IInteraction
 {
-    public UnityEvent OnInteract { get; protected set; }
+    [Header("UnityEvent")]
+    [SerializeField] UnityEvent onInteract;
 
-    public void Interact();
 
+    //Getter and Setter for the onInteract function
+    UnityEvent IInteraction.onInteract
+    {
+        get => onInteract;
+        set => onInteract = value;
+    }
+
+    /// <summary>
+    /// Invokes the onInteract
+    /// </summary>
+    public void Interact() => onInteract.Invoke();
 }
