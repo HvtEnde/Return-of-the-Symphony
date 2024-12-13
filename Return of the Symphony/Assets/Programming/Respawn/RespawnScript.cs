@@ -7,6 +7,9 @@ public class RespawnScript : MonoBehaviour
     public GameObject player;
     public Transform respawnPoint;
     public PlayerManager playerManager;
+    public GameObject life1;
+    public GameObject life2;
+    public GameObject life3; 
 
     private void Start()
     {
