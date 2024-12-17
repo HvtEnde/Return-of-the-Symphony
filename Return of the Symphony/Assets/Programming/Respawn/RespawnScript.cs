@@ -27,6 +27,7 @@ public class RespawnScript : MonoBehaviour
             if (playerManager.Lives > 1)
             {
                 playerManager.Lives--;
+               
             }
             else 
             {
