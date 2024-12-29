@@ -58,6 +58,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8640502479962998287, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 07178b73d1fcad848933b7068758e8ab, type: 2}
     - target: {fileID: -6883009525425429075, guid: 58c9a97bde04a7e468da359ce3d14d8e,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -68,6 +73,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platenspeler
       objectReference: {fileID: 0}
+    - target: {fileID: 8964979574570067769, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 07178b73d1fcad848933b7068758e8ab, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
