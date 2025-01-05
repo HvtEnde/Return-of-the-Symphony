@@ -8,9 +8,9 @@ public class PlayerManager : MonoBehaviour
     bool _isDead;
     public GameObject lossScreen;
 
-    void DeathCheck()
+    public void DeathCheck()
     {
-        if (_isDead)
+        if (_isDead == true)
         {
             lossScreen.SetActive(true);
         }
