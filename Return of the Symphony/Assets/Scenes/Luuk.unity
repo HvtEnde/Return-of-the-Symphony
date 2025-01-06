@@ -1425,6 +1425,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d077b9420d714f4d99ff29d8b5dc1ec, type: 3}
+--- !u!1001 &8025234002989936800
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 84.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.351185
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207612321206246423, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_Name
+      value: Island5_GitaarWell
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 491a6f6762550a14fbd509add6075911, type: 3}
 --- !u!1001 &8190689335829049586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1580,6 +1648,7 @@ SceneRoots:
   - {fileID: 7109329205609890450}
   - {fileID: 8540005567976671067}
   - {fileID: 18834677}
+  - {fileID: 8025234002989936800}
   - {fileID: 1257045889329029699}
   - {fileID: 2634874598150993832}
   - {fileID: 1035982486073726621}
