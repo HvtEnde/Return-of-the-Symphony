@@ -8217,6 +8217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinAndLoss
       objectReference: {fileID: 0}
+    - target: {fileID: 8038314723866210947, guid: cfc1b830489f1f04e94afbda0b2e133a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8821492004517477735, guid: cfc1b830489f1f04e94afbda0b2e133a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

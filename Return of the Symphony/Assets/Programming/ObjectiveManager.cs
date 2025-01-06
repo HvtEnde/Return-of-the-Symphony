@@ -24,6 +24,7 @@ public class ObjectiveManager : MonoBehaviour
     public bool objectivePickUp4;
     public GameObject[] objectivesToSpawn;
     public Transform[] objectiveSpawnPoint;
+    public GameObject winScreen;
 
     public int placedOrbs;
 
@@ -119,5 +120,14 @@ public class ObjectiveManager : MonoBehaviour
             placedOrbs++;
             objectivePickUp4 = false;
         }
+        if (placedOrbs == 5f)
+        {
+            winScreen.SetActive(true);
+            Time.timeScale = 0f;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
+
+
 }

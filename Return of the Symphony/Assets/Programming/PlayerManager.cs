@@ -6,15 +6,8 @@ public class PlayerManager : MonoBehaviour
 {
     [SerializeField] int _lives;
     bool _isDead;
-    public GameObject lossScreen;
 
-    public void DeathCheck()
-    {
-        if (_isDead == true)
-        {
-            lossScreen.SetActive(true);
-        }
-    }
+   
     
     public int Lives
     {

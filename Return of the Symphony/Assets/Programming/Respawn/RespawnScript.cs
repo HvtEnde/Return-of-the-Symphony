@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class RespawnScript : MonoBehaviour
@@ -7,6 +8,7 @@ public class RespawnScript : MonoBehaviour
     public GameObject player;
     public Transform respawnPoint;
     public PlayerManager playerManager;
+    public GameObject lossScreen;
    
 
     private void Start()
@@ -31,6 +33,12 @@ public class RespawnScript : MonoBehaviour
             else 
             {
                 playerManager.IsDead = true;
+                lossScreen.SetActive(true);
+                Time.timeScale = 0f;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+               
+                    
             }
 
 
