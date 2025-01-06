@@ -308,104 +308,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!1001 &722580877
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 84.1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -9.351185
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73e9aede06df370489e3d5d5a189e2b7, type: 2}
-    - target: {fileID: -4619330548515619646, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7b095a9534aad45418dbd26b02bd184a, type: 2}
-    - target: {fileID: -1141929222064733799, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b0471f3e174cdea4080ca8c1cdd173bf, type: 2}
-    - target: {fileID: 919132149155446097, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_Name
-      value: Island5_GitaarWell
-      objectReference: {fileID: 0}
-    - target: {fileID: 6792732034835199289, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 52742e1606e97494dbb115893f34f74a, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-        type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 1999276142}
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ea12a2f79c91b6b44a1445fd40310772, type: 3}
---- !u!4 &722580878 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
-    type: 3}
-  m_PrefabInstance: {fileID: 722580877}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1202583442
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,89 +400,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1999276141
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1999276142}
-  - component: {fileID: 1999276144}
-  - component: {fileID: 1999276143}
-  m_Layer: 0
-  m_Name: IslandGUtarWell(Waterfall) (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1999276142
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999276141}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1.01, y: 1.01, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 722580878}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1999276143
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999276141}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: dae221917a19b9442a81f17ed46de2da, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1999276144
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999276141}
-  m_Mesh: {fileID: -5607058983231936045, guid: ea12a2f79c91b6b44a1445fd40310772, type: 3}
 --- !u!1001 &642826285389809366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1606,6 +1425,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d077b9420d714f4d99ff29d8b5dc1ec, type: 3}
+--- !u!1001 &8025234002989936800
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 84.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.351185
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395785250486240941, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207612321206246423, guid: 491a6f6762550a14fbd509add6075911,
+        type: 3}
+      propertyPath: m_Name
+      value: Island5_GitaarWell
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 491a6f6762550a14fbd509add6075911, type: 3}
 --- !u!1001 &8190689335829049586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1761,9 +1648,9 @@ SceneRoots:
   - {fileID: 7109329205609890450}
   - {fileID: 8540005567976671067}
   - {fileID: 18834677}
+  - {fileID: 8025234002989936800}
   - {fileID: 1257045889329029699}
   - {fileID: 2634874598150993832}
   - {fileID: 1035982486073726621}
   - {fileID: 1938322369427862472}
   - {fileID: 8190689335829049586}
-  - {fileID: 722580877}
