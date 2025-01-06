@@ -28,7 +28,7 @@ public class ObjectiveManager : MonoBehaviour
     public GameObject winScreen;
 
     public AudioClip[] musicClips;
-    public AudioSource audioSource;
+    public AudioSource[] audioSource;
 
     public int placedOrbs;
 
@@ -134,28 +134,28 @@ public class ObjectiveManager : MonoBehaviour
         }
         if (placedOrbs == 1f)
         {
-            audioSource.clip = musicClips[0];
-            audioSource.Play(); 
+            audioSource[0].clip = musicClips[0];
+            audioSource[0].Play(); 
         }
         if (placedOrbs == 2f)
         {
-            audioSource.clip = musicClips[1];
-            audioSource.Play();
+            audioSource[1].clip = musicClips[1];
+            audioSource[1].Play();
         }
         if (placedOrbs == 3f)
         {
-            audioSource.clip = musicClips[2];
-            audioSource.Play();
+            audioSource[2].clip = musicClips[2];
+            audioSource[2].Play();
         }
         if (placedOrbs == 4f)
         {
-            audioSource.clip = musicClips[3];
-            audioSource.Play();
+            audioSource[3].clip = musicClips[3];
+            audioSource[3].Play();
         }
         if (placedOrbs == 5f)
         {
-            audioSource.clip = musicClips[4];
-            audioSource.Play();
+            audioSource[4].clip = musicClips[4];
+            audioSource[4].Play();
         }
     }
 
