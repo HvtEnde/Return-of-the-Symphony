@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.Timeline;
 
 public class ObjectiveManager : MonoBehaviour
 {
@@ -25,6 +26,9 @@ public class ObjectiveManager : MonoBehaviour
     public GameObject[] objectivesToSpawn;
     public Transform[] objectiveSpawnPoint;
     public GameObject winScreen;
+
+    public AudioClip[] musicClips;
+    public AudioSource audioSource;
 
     public int placedOrbs;
 
@@ -94,6 +98,7 @@ public class ObjectiveManager : MonoBehaviour
             Instantiate(objectivesToSpawn[0], objectiveSpawnPoint[0].position, Quaternion.identity);
             placedOrbs++;
             objectivePickUp0 = false;
+
         }
 
         if (objectivePickUp1)
@@ -127,6 +132,12 @@ public class ObjectiveManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+        if (placedOrbs == 1f)
+        {
+            audioSource.clip = musicClips[0];
+            audioSource.Play();
+        }
+
     }
 
 
