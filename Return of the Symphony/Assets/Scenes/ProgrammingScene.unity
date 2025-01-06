@@ -1470,9 +1470,8 @@ MonoBehaviour:
   player: {fileID: 1749431682}
   respawnPoint: {fileID: 1687495976}
   playerManager: {fileID: 139941900}
-  life1: {fileID: 0}
-  life2: {fileID: 0}
-  life3: {fileID: 0}
+  lossScreen: {fileID: 0}
+  hearts: []
 --- !u!1 &982209798
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,6 +3683,11 @@ PrefabInstance:
     - target: {fileID: 5482570409785001735, guid: b7649bc8e8304fd4ca4f412a6116bdc5,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103906846585708041, guid: b7649bc8e8304fd4ca4f412a6116bdc5,
+        type: 3}
+      propertyPath: objectivePickUp0
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8103906846585708041, guid: b7649bc8e8304fd4ca4f412a6116bdc5,
