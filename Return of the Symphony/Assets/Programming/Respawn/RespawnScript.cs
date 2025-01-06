@@ -9,7 +9,7 @@ public class RespawnScript : MonoBehaviour
     public Transform respawnPoint;
     public PlayerManager playerManager;
     public GameObject lossScreen;
-   
+    public GameObject[] hearts;
 
     private void Start()
     {
@@ -28,7 +28,19 @@ public class RespawnScript : MonoBehaviour
             if (playerManager.Lives > 0)
             {
                 playerManager.Lives--;
-               
+
+                if(playerManager.Lives == 2)
+                {
+                    hearts[0].SetActive(false);
+                }
+                if (playerManager.Lives == 1)
+                {
+                    hearts[1].SetActive(false);
+                }
+                if (playerManager.Lives == 0)
+                {
+                    hearts[2].SetActive(false);
+                }
             }
             else 
             {
