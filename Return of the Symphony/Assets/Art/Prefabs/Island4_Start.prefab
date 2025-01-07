@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3079385224149709605}
   m_Layer: 0
   m_Name: WaterfallRocks1
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 4000171558084398698}
   m_Layer: 0
   m_Name: WaterfallRocks2
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 6774666239720866899}
   m_Layer: 0
   m_Name: Tree
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 8235582487748602445}
   m_Layer: 0
   m_Name: WaterfallRocks4
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 3436370799706544916}
   m_Layer: 0
   m_Name: Rocks
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 2600422014148452509}
   m_Layer: 0
   m_Name: WaterfallRocks
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 2355687861062633741}
   m_Layer: 0
   m_Name: GrassRockside
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 8981210265065279897}
   m_Layer: 0
   m_Name: Grass
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -772,7 +772,7 @@ GameObject:
   - component: {fileID: 8640017669495866956}
   m_Layer: 0
   m_Name: WaterfallRocks3
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -810,7 +810,7 @@ GameObject:
   - component: {fileID: 1252197912936401122}
   m_Layer: 0
   m_Name: WaterfallIsland (1)
-  m_TagString: Untagged
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3807,6 +3807,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -4083,6 +4088,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -5969,6 +5979,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -8896,6 +8911,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -9172,6 +9192,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -10107,6 +10132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -13028,6 +13058,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -13775,6 +13810,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -14156,6 +14196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -15092,6 +15137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -15650,6 +15700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -16962,6 +17017,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -18189,6 +18249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -20360,6 +20425,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -21682,6 +21752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -22240,6 +22315,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -24963,6 +25043,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -29388,6 +29473,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -30040,6 +30130,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -34101,6 +34196,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -34566,6 +34666,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -34842,6 +34947,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -36532,11 +36642,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c0dce2e56b8073e42b7b398b3c12d457, type: 2}
+    - target: {fileID: -6264376294000188187, guid: 8088669a49b6ccf48a2d01a50dedbf24,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: -5752700586185066694, guid: 8088669a49b6ccf48a2d01a50dedbf24,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b0471f3e174cdea4080ca8c1cdd173bf, type: 2}
+    - target: {fileID: -5477566898816975782, guid: 8088669a49b6ccf48a2d01a50dedbf24,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: -4971582948179079760, guid: 8088669a49b6ccf48a2d01a50dedbf24,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -36562,11 +36682,21 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -988471348446779024, guid: 8088669a49b6ccf48a2d01a50dedbf24,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: -457974874598649346, guid: 8088669a49b6ccf48a2d01a50dedbf24,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a081f71bfddf4dd4fbcab01232d76625, type: 2}
+    - target: {fileID: -413015515209585809, guid: 8088669a49b6ccf48a2d01a50dedbf24,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: -93171840587774157, guid: 8088669a49b6ccf48a2d01a50dedbf24,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -36617,11 +36747,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a081f71bfddf4dd4fbcab01232d76625, type: 2}
+    - target: {fileID: 3155474181813836672, guid: 8088669a49b6ccf48a2d01a50dedbf24,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 3524975322022882226, guid: 8088669a49b6ccf48a2d01a50dedbf24,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b0471f3e174cdea4080ca8c1cdd173bf, type: 2}
+    - target: {fileID: 4702494228671892429, guid: 8088669a49b6ccf48a2d01a50dedbf24,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 8088669a49b6ccf48a2d01a50dedbf24,
         type: 3}
       propertyPath: m_Size
@@ -36842,6 +36982,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c0dce2e56b8073e42b7b398b3c12d457, type: 2}
+    - target: {fileID: 5925733843850377702, guid: 8088669a49b6ccf48a2d01a50dedbf24,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294745290551406651, guid: 8088669a49b6ccf48a2d01a50dedbf24,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172636873773516556, guid: 8088669a49b6ccf48a2d01a50dedbf24,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8324653551877648913, guid: 8088669a49b6ccf48a2d01a50dedbf24,
         type: 3}
       propertyPath: m_Layer
@@ -40464,6 +40619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -44416,6 +44576,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -45351,6 +45516,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -45533,6 +45703,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}
@@ -48455,6 +48630,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208302549798477588, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8836747470602732974, guid: 558ddd611ad4d3f4a9777e12b77f2d65,
         type: 3}

@@ -63,15 +63,55 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 07178b73d1fcad848933b7068758e8ab, type: 2}
+    - target: {fileID: -7099154664393818038, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: -6883009525425429075, guid: 58c9a97bde04a7e468da359ce3d14d8e,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 07178b73d1fcad848933b7068758e8ab, type: 2}
+    - target: {fileID: -5917795643230224717, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: -4623761288563565374, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 263039310651101997, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 58c9a97bde04a7e468da359ce3d14d8e,
         type: 3}
       propertyPath: m_Name
       value: Platenspeler
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203415465218421273, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 5862434565880678670, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991440638626565770, guid: 58c9a97bde04a7e468da359ce3d14d8e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grounded
       objectReference: {fileID: 0}
     - target: {fileID: 8964979574570067769, guid: 58c9a97bde04a7e468da359ce3d14d8e,
         type: 3}
