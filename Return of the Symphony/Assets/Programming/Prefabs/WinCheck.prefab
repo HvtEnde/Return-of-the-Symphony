@@ -124,7 +124,7 @@ MonoBehaviour:
       - m_Target: {fileID: 8103906846585708041, guid: b7649bc8e8304fd4ca4f412a6116bdc5,
           type: 3}
         m_TargetAssemblyTypeName: ObjectiveManager, Assembly-CSharp
-        m_MethodName: WinConditionInteraction
+        m_MethodName: MakeTheFreedInstrumentsAppear
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

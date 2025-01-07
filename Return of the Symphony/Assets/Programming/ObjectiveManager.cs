@@ -18,19 +18,14 @@ public class ObjectiveManager : MonoBehaviour
     private float targetSaturation;
     public int saturationValue;
     public GameObject[] worldObjectives;
-    public bool objectivePickUp0;
-    public bool objectivePickUp1;
-    public bool objectivePickUp2;
-    public bool objectivePickUp3;
-    public bool objectivePickUp4;
-    public GameObject[] objectivesToSpawn;
+    public bool[] objectivePickedUp;
+    public GameObject[] finalInstruments;
     public Transform[] objectiveSpawnPoint;
     public GameObject winScreen;
 
     public AudioClip[] musicClips;
-    public AudioSource[] audioSource;
+    public AudioSource musicPlayer;
 
-    public int placedOrbs;
 
     void Start()
     {
@@ -38,48 +33,53 @@ public class ObjectiveManager : MonoBehaviour
 
         if (postProcessVolume.profile.TryGet<ColorAdjustments>(out colorAdjustments))
         {
-            targetSaturation = colorAdjustments.saturation.value;
+            targetSaturation = 0;
             colorAdjustments.saturation.value = -100;
         }
-        else
+    }
+
+    public void InteractionWithCapturedInstrument(int id)
+    {
+        if (!objectivePickedUp[id])
         {
-            Debug.LogError("Color Adjustment niet gevonden in volume profiel");
+            maxSaturationLimit += 20;
+            Destroy(worldObjectives[id]);
+            objectivePickedUp[id] = true;
         }
     }
 
-    public void Interaction0()
+    public void MakeTheFreedInstrumentsAppear()
     {
-        maxSaturationLimit += 20;
-        Destroy(worldObjectives[0]);
-        objectivePickUp0 = true;
+        int count = 0;
+        for(int i = 0; i < objectivePickedUp.Length; i++)
+        {
+            if (objectivePickedUp[i] == true)
+            {
+
+                Debug.Log("hi :3");
+                count++;
+                Instantiate(finalInstruments[i], objectiveSpawnPoint[i].position, Quaternion.identity);
+            }
+        }
+        if(count > 0)
+        {
+            musicPlayer.clip = musicClips[count];
+            musicPlayer.Play();
+            if(count == objectivePickedUp.Length)
+            {
+                Winning();
+            }
+        }
     }
 
-    public void Interaction1()
+    public void Winning()
     {
-        maxSaturationLimit += 20;
-        Destroy(worldObjectives[1]);
-        objectivePickUp1 = true;
+        winScreen.SetActive(true);
+        Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
-    public void Interaction2()
-    {
-        maxSaturationLimit += 20;
-        Destroy(worldObjectives[2]);
-        objectivePickUp2 = true;
-    }
-
-    public void Interaction3()
-    {
-        maxSaturationLimit += 20;
-        Destroy(worldObjectives[3]);
-        objectivePickUp3 = true;
-    }
-    public void Interaction4()
-    {
-        maxSaturationLimit += 20;
-        Destroy(worldObjectives[4]);
-        objectivePickUp4 = true;
-    }
     void Update()
     {
         if (colorAdjustments != null)
@@ -87,81 +87,8 @@ public class ObjectiveManager : MonoBehaviour
             if (colorAdjustments.saturation.value < maxSaturationLimit)
             {
                 colorAdjustments.saturation.value = Mathf.Lerp(colorAdjustments.saturation.value, targetSaturation, Time.deltaTime * transitionSpeed);
+
             }
         }
     }
-
-    public void WinConditionInteraction()
-    {
-        if (objectivePickUp0)
-        {
-            Instantiate(objectivesToSpawn[0], objectiveSpawnPoint[0].position, Quaternion.identity);
-            placedOrbs++;
-            objectivePickUp0 = false;
-
-        }
-
-        if (objectivePickUp1)
-        {
-            Instantiate(objectivesToSpawn[1], objectiveSpawnPoint[1].position, Quaternion.identity);
-            placedOrbs++;
-            objectivePickUp1 = false;
-        }
-        if (objectivePickUp2)
-        {
-            Instantiate(objectivesToSpawn[2], objectiveSpawnPoint[2].position, Quaternion.identity);
-            placedOrbs++;
-            objectivePickUp2 = false;
-        }
-        if (objectivePickUp3)
-        {
-            Instantiate(objectivesToSpawn[3], objectiveSpawnPoint[3].position, Quaternion.identity);
-            placedOrbs++;
-            objectivePickUp3 = false;
-        }
-        if (objectivePickUp4)
-        {
-            Instantiate(objectivesToSpawn[4], objectiveSpawnPoint[4].position, Quaternion.identity);
-            placedOrbs++;
-            objectivePickUp4 = false;
-        }
-        if (placedOrbs == 5f)
-        {
-            winScreen.SetActive(true);
-            Time.timeScale = 0f;
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
-        if (placedOrbs == 1f)
-        {
-            audioSource[0].clip = musicClips[0];
-            audioSource[0].Play(); 
-        }
-        if (placedOrbs == 2f)
-        {
-            audioSource[1].clip = musicClips[1];
-            audioSource[1].Play();
-            audioSource[0].Stop();
-        }
-        if (placedOrbs == 3f)
-        {
-            audioSource[2].clip = musicClips[2];
-            audioSource[2].Play();
-            audioSource[1].Stop();
-        }
-        if (placedOrbs == 4f)
-        {
-            audioSource[3].clip = musicClips[3];
-            audioSource[3].Play();
-            audioSource[2].Stop();
-        }
-        if (placedOrbs == 5f)
-        {
-            audioSource[4].clip = musicClips[4];
-            audioSource[4].Play();
-            audioSource[3].Stop();
-        }
-    }
-
-
 }

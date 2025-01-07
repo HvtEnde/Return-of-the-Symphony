@@ -49,23 +49,19 @@ MonoBehaviour:
   transitionSpeed: 5
   saturationIncrement: 20
   maxSaturationLimit: 0
-  saturationValue: 0
+  saturationValue: -100
   worldObjectives:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  objectivePickUp0: 0
-  objectivePickUp1: 0
-  objectivePickUp2: 0
-  objectivePickUp3: 0
-  objectivePickUp4: 0
-  objectivesToSpawn:
+  objectivePickedUp: 0000000000
+  finalInstruments:
   - {fileID: 2223675861961022239, guid: 91240b745ae246a4e8255b56b210c66e, type: 3}
+  - {fileID: 5126847096338009075, guid: 87c554676f5e6964da0afcbb1aafdefd, type: 3}
   - {fileID: 6610204862777600335, guid: 3882493d04376ab48844bf7d900f126b, type: 3}
   - {fileID: 1920357564928046714, guid: fdd23d5ca993a4249adca10d546ac55f, type: 3}
-  - {fileID: 5126847096338009075, guid: 87c554676f5e6964da0afcbb1aafdefd, type: 3}
   - {fileID: 3553407166559810986, guid: 1e10cda71a559bc459d6dafba812e9c1, type: 3}
   objectiveSpawnPoint:
   - {fileID: 0}
@@ -86,7 +82,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  placedOrbs: 0
+  musicPlayer: {fileID: 0}
 --- !u!114 &5762112934097313897
 MonoBehaviour:
   m_ObjectHideFlags: 0
