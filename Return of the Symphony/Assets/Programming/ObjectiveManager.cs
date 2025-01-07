@@ -141,21 +141,25 @@ public class ObjectiveManager : MonoBehaviour
         {
             audioSource[1].clip = musicClips[1];
             audioSource[1].Play();
+            audioSource[0].Stop();
         }
         if (placedOrbs == 3f)
         {
             audioSource[2].clip = musicClips[2];
             audioSource[2].Play();
+            audioSource[1].Stop();
         }
         if (placedOrbs == 4f)
         {
             audioSource[3].clip = musicClips[3];
             audioSource[3].Play();
+            audioSource[2].Stop();
         }
         if (placedOrbs == 5f)
         {
             audioSource[4].clip = musicClips[4];
             audioSource[4].Play();
+            audioSource[3].Stop();
         }
     }
 

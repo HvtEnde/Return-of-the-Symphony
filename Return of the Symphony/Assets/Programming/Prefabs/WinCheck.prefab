@@ -121,7 +121,8 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 8103906846585708041, guid: b7649bc8e8304fd4ca4f412a6116bdc5,
+          type: 3}
         m_TargetAssemblyTypeName: ObjectiveManager, Assembly-CSharp
         m_MethodName: WinConditionInteraction
         m_Mode: 1

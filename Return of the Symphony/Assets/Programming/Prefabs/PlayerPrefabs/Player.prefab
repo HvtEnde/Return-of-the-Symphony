@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8327648238554731277}
   - component: {fileID: 1036566561796633512}
   - component: {fileID: 1307286892700428703}
-  - component: {fileID: 6838811113923850787}
+  - component: {fileID: 2532119090734475058}
   m_Layer: 0
   m_Name: Player Camera (1)
   m_TagString: MainCamera
@@ -129,7 +129,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &6838811113923850787
+--- !u!114 &2532119090734475058
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

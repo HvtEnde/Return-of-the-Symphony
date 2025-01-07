@@ -25,7 +25,7 @@ public class RespawnScript : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             player.transform.position = respawnPoint.transform.position;
-            if (playerManager.Lives > 0)
+            if (playerManager.Lives > 1)
             {
                 playerManager.Lives--;
 

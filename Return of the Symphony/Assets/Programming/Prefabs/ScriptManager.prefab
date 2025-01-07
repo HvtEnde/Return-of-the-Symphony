@@ -49,7 +49,7 @@ MonoBehaviour:
   transitionSpeed: 5
   saturationIncrement: 20
   maxSaturationLimit: 0
-  saturationValue: 0
+  saturationValue: -100
   worldObjectives:
   - {fileID: 0}
   - {fileID: 0}
@@ -62,12 +62,25 @@ MonoBehaviour:
   objectivePickUp3: 0
   objectivePickUp4: 0
   objectivesToSpawn:
-  - {fileID: 7161212626506910419, guid: 0c25b596870d9ac43b40ac9bc7dffdcc, type: 3}
+  - {fileID: 2223675861961022239, guid: 91240b745ae246a4e8255b56b210c66e, type: 3}
   - {fileID: 1438077909851640603, guid: e970307e692aa1a4ba8f6f5dee7b371c, type: 3}
   - {fileID: 8911357957980099290, guid: 371cb1478b9ddfb43880696d074b99e0, type: 3}
   - {fileID: 8572303708033751230, guid: 624f0f29038aee446bb6d98f29c40a56, type: 3}
   - {fileID: 5381449996301348548, guid: 58ee790869ba6844d9b1e8fa33df54f8, type: 3}
   objectiveSpawnPoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  winScreen: {fileID: 0}
+  musicClips:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  audioSource:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -87,4 +100,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lives: 3
-  lossScreen: {fileID: 0}
