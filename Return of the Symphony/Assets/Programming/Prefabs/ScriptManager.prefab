@@ -76,13 +76,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  audioSource:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   musicPlayer: {fileID: 0}
+  winCube: {fileID: 0}
 --- !u!114 &5762112934097313897
 MonoBehaviour:
   m_ObjectHideFlags: 0

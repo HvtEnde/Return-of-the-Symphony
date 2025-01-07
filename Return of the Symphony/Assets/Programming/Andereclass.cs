@@ -22,12 +22,11 @@ public class Andereclass : MonoBehaviour
     public GameObject[] finalInstruments;
     public Transform[] objectiveSpawnPoint;
     public GameObject winScreen;
-    public GameObject winScreen2;
     private bool spawnedInstruments = false;
 
     public AudioClip[] musicClips;
     public AudioSource musicPlayer;
-
+    public GameObject winCube;
 
     void Start()
     {
@@ -108,6 +107,8 @@ public class Andereclass : MonoBehaviour
         Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        winCube.gameObject.SetActive(false);
+        
     }
 
     void Update()
