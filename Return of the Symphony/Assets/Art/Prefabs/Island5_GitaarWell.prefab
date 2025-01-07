@@ -151,6 +151,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7b095a9534aad45418dbd26b02bd184a, type: 2}
+    - target: {fileID: -1301569927205403189, guid: ea12a2f79c91b6b44a1445fd40310772,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73e9aede06df370489e3d5d5a189e2b7, type: 2}
     - target: {fileID: -1141929222064733799, guid: ea12a2f79c91b6b44a1445fd40310772,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -161,6 +166,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island5_GitaarWell
       objectReference: {fileID: 0}
+    - target: {fileID: 3483335631813373347, guid: ea12a2f79c91b6b44a1445fd40310772,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73e9aede06df370489e3d5d5a189e2b7, type: 2}
     - target: {fileID: 6792732034835199289, guid: ea12a2f79c91b6b44a1445fd40310772,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
