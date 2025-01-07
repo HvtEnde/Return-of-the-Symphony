@@ -49,7 +49,7 @@ MonoBehaviour:
   transitionSpeed: 5
   saturationIncrement: 20
   maxSaturationLimit: 0
-  saturationValue: -100
+  saturationValue: 0
   worldObjectives:
   - {fileID: 0}
   - {fileID: 0}
@@ -63,10 +63,10 @@ MonoBehaviour:
   objectivePickUp4: 0
   objectivesToSpawn:
   - {fileID: 2223675861961022239, guid: 91240b745ae246a4e8255b56b210c66e, type: 3}
-  - {fileID: 1438077909851640603, guid: e970307e692aa1a4ba8f6f5dee7b371c, type: 3}
-  - {fileID: 8911357957980099290, guid: 371cb1478b9ddfb43880696d074b99e0, type: 3}
-  - {fileID: 8572303708033751230, guid: 624f0f29038aee446bb6d98f29c40a56, type: 3}
-  - {fileID: 5381449996301348548, guid: 58ee790869ba6844d9b1e8fa33df54f8, type: 3}
+  - {fileID: 6610204862777600335, guid: 3882493d04376ab48844bf7d900f126b, type: 3}
+  - {fileID: 1920357564928046714, guid: fdd23d5ca993a4249adca10d546ac55f, type: 3}
+  - {fileID: 5126847096338009075, guid: 87c554676f5e6964da0afcbb1aafdefd, type: 3}
+  - {fileID: 3553407166559810986, guid: 1e10cda71a559bc459d6dafba812e9c1, type: 3}
   objectiveSpawnPoint:
   - {fileID: 0}
   - {fileID: 0}
