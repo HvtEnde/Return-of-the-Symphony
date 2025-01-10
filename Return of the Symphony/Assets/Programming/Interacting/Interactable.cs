@@ -21,6 +21,10 @@ public class Interactable : MonoBehaviour
     public Volume postProcessVolume;
     private ColorAdjustments colorAdjustments;
 
+    public Instruments instrumentInfo;
+    public int currentGrabbedInstrument;
+    public bool[] instrument;
+
     public void Start()
     {
         
@@ -45,10 +49,32 @@ public class Interactable : MonoBehaviour
                 {
                     maxSaturationLimit += 20;
                     Destroy(hit.transform.gameObject);
+                    currentGrabbedInstrument = instrumentInfo.GetComponent<Instruments>().instrument;
+                    switch (currentGrabbedInstrument)
+                    {
+                        case 0:
+                            instrument[0] = true;
+                            break;
+                        case 1:
+                            instrument[1] = true;
+                            break;
+                        case 2:
+                            instrument[2] = true;
+                            break;
+                        case 3:
+                            instrument[3] = true;
+                            break;
+                        case 4:
+                            instrument[4] = true;
+                            break;
+                    }
+
+
+
                 }
                 else if(hit.transform.tag == "WinCondition")
                 {
-
+                    
                 }
             }
             

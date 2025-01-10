@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class Instruments : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int instrument;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+  
+
 }
