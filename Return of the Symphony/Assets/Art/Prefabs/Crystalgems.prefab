@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crystalgems
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4a0fc1da43c0ef4cb7676363d546f64,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

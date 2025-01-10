@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e4471db1bb93a4c44aa4a1c7ca1a2f22, type: 2}
+    - target: {fileID: -5240141239643042284, guid: db8037a9aea40c34b8ba2d2049c11137,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -2321731876976801449, guid: db8037a9aea40c34b8ba2d2049c11137,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -82,6 +87,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db8037a9aea40c34b8ba2d2049c11137,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629359978020418718, guid: db8037a9aea40c34b8ba2d2049c11137,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6395555436271668607, guid: db8037a9aea40c34b8ba2d2049c11137,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102941671085511639, guid: db8037a9aea40c34b8ba2d2049c11137,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

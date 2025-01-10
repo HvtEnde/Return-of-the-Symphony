@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5494347832001577688
 Transform:
@@ -91,6 +91,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8722058507717393486, guid: ea12a2f79c91b6b44a1445fd40310772,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ea12a2f79c91b6b44a1445fd40310772,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -161,16 +166,41 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b0471f3e174cdea4080ca8c1cdd173bf, type: 2}
+    - target: {fileID: -598337721585684111, guid: ea12a2f79c91b6b44a1445fd40310772,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ea12a2f79c91b6b44a1445fd40310772,
         type: 3}
       propertyPath: m_Name
       value: Island5_GitaarWell
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ea12a2f79c91b6b44a1445fd40310772,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089883284889116920, guid: ea12a2f79c91b6b44a1445fd40310772,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3483335631813373347, guid: ea12a2f79c91b6b44a1445fd40310772,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 73e9aede06df370489e3d5d5a189e2b7, type: 2}
+    - target: {fileID: 4429097811065839657, guid: ea12a2f79c91b6b44a1445fd40310772,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6296559734269485316, guid: ea12a2f79c91b6b44a1445fd40310772,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6792732034835199289, guid: ea12a2f79c91b6b44a1445fd40310772,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

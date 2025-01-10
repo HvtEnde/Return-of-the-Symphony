@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &951735821633566080
 Transform:
@@ -170,10 +170,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ab9adcac0808ac240bb9f347cb1334e7, type: 2}
+    - target: {fileID: -4826769645161003839, guid: e4dc85b22b8827a4582fed6ee3ab7a98,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e4dc85b22b8827a4582fed6ee3ab7a98,
         type: 3}
       propertyPath: m_Name
       value: Peddastoel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4dc85b22b8827a4582fed6ee3ab7a98,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865628695904863431, guid: e4dc85b22b8827a4582fed6ee3ab7a98,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

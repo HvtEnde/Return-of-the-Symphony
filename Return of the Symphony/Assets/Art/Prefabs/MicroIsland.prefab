@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7335550130199343580
 Transform:
@@ -141,6 +141,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -214,6 +219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -294,6 +304,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -373,6 +388,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: -2352313227870557939, guid: 5a0ef8698ba8f874c87e83175cd74484,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -155600887287554269, guid: 5a0ef8698ba8f874c87e83175cd74484,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -388,6 +408,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 255282144469477656, guid: 5a0ef8698ba8f874c87e83175cd74484,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5a0ef8698ba8f874c87e83175cd74484,
         type: 3}
       propertyPath: m_Name
@@ -398,10 +423,20 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a0ef8698ba8f874c87e83175cd74484,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5344986241394526786, guid: 5a0ef8698ba8f874c87e83175cd74484,
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 5344986241394526786, guid: 5a0ef8698ba8f874c87e83175cd74484,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -518,6 +553,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -596,6 +636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -676,6 +721,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -754,6 +804,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -834,6 +889,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -912,6 +972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -992,6 +1057,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1070,6 +1140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1150,6 +1225,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1228,6 +1308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1308,6 +1393,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1386,6 +1476,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1466,6 +1561,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1544,6 +1644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1624,6 +1729,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1702,6 +1812,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1782,6 +1897,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1860,6 +1980,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1940,6 +2065,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2018,6 +2148,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2098,6 +2233,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2176,6 +2316,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2256,6 +2401,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2334,6 +2484,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2414,6 +2569,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2492,6 +2652,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2572,6 +2737,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2650,6 +2820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2730,6 +2905,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2808,6 +2988,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2888,6 +3073,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2966,6 +3156,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3046,6 +3241,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3124,6 +3324,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3204,6 +3409,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3282,6 +3492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3362,6 +3577,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3441,6 +3661,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Grounded
       objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3519,6 +3744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Grounded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719722694190435848, guid: d073b0e055cb66d4fbc8973c569d982d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
