@@ -63,10 +63,10 @@ public class ObjectiveManager : MonoBehaviour
 
             if (i > 0)
             {
-                
 
-                //musicPlayer.clip = musicClips[i];
-                //musicPlayer.Play();
+
+                musicPlayer.clip = musicClips[i];
+                musicPlayer.Play();
                 if (i >= 4)
                 {
                     
