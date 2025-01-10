@@ -4,21 +4,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Interactable : MonoBehaviour, IInteraction
+public class Interactable : MonoBehaviour
 {
-    [Header("UnityEvent")]
-    [SerializeField] UnityEvent onInteract;
+    //[Header("UnityEvent")]
+    //[SerializeField] UnityEvent onInteract;
+    //public GameObject[] instruments;
+    //public bool[] objectivePickedUp;
 
-
-    //Getter and Setter for the onInteract function
-    UnityEvent IInteraction.onInteract
-    {
-        get => onInteract;
-        set => onInteract = value;
-    }
-
-    /// <summary>
-    /// Invokes the onInteract
-    /// </summary>
-    public void Interact() => onInteract.Invoke();
+    //public void InteractionWithCapturedInstrument(int id)
+    //{
+    //    if (!objectivePickedUp[id])
+    //    {
+    //        maxSaturationLimit += 20;
+    //        Destroy(worldObjectives[id]);
+    //        objectivePickedUp[id] = true;
+    //    }
+    //}
 }
