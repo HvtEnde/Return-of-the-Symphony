@@ -41,7 +41,7 @@ public class Interactor : MonoBehaviour
                 {
                     if (Input.GetButtonDown("Fire1"))
                     {
-                        hit.collider.gameObject.GetComponent<ObjectiveManager>().InteractionWithCapturedInstrument(1);
+                        //hit.collider.gameObject.GetComponent<ObjectiveManager>().InteractionWithCapturedInstrument(1);
                     }
                 }
 

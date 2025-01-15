@@ -10,6 +10,7 @@ public class RespawnScript : MonoBehaviour
     public PlayerManager playerManager;
     public GameObject lossScreen;
     public GameObject[] hearts;
+    public GameObject otherCanvas;
 
     private void Start()
     {
@@ -44,6 +45,7 @@ public class RespawnScript : MonoBehaviour
             }
             else 
             {
+                otherCanvas.SetActive(false);
                 playerManager.IsDead = true;
                 lossScreen.SetActive(true);
                 Time.timeScale = 0f;

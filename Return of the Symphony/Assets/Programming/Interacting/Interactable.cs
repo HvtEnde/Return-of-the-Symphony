@@ -10,8 +10,8 @@ using UnityEngine.Rendering.Universal;
 
 public class Interactable : MonoBehaviour
 {
-    public float transitionSpeed = 5f;
-    public float saturationIncrement = 20f;
+    public float transitionSpeed = 5;
+    public int saturationIncrement = 20;
     public LayerMask mask;
     public RaycastHit hit;
     public bool popupCheck;
@@ -22,14 +22,19 @@ public class Interactable : MonoBehaviour
     public Volume postProcessVolume;
     private ColorAdjustments colorAdjustments;
 
-   // public Instruments instrumentInfo;
+   public Instruments instrumentInfo;
     public int currentGrabbedInstrument;
     public bool[] instrument;
 
     public GameObject winScreen;
     public GameObject operaBlock;
-    public GameObject[] instruments;
     public Transform[] instrumentSpawn;
+    public GameObject winCube;
+    public GameObject otherCanvas;
+
+    //public AudioSource audioSource;
+    //public AudioClip musicClip;
+
     
 
     public void Start()
@@ -63,32 +68,17 @@ public class Interactable : MonoBehaviour
                         operaBlock.SetActive(false);
                         
                     }
-                    //currentGrabbedInstrument = instrumentInfo.GetComponent<Instruments>().instrument;
-                    //switch (currentGrabbedInstrument)
-                    //{
-                    //    case 0:
-                    //        instrument[0] = true;
-                    //        break;
-                    //    case 1:
-                    //        instrument[1] = true;
-                    //        break;
-                    //    case 2:
-                    //        instrument[2] = true;
-                    //        break;
-                    //    case 3:
-                    //        instrument[3] = true;
-                    //        break;
-                    //    case 4:
-                    //        instrument[4] = true;
-                    //        break;
-                    //}
-
-
+                   
 
                 }
                 else if(hit.transform.tag == "WinCondition")
                 {
-                    Win();
+                    if (currentGrabbedInstrument == 5)
+                    {
+                        Win();
+                    }
+
+                    
                 }
             }
             
@@ -123,9 +113,11 @@ public class Interactable : MonoBehaviour
    
     public void Win()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        otherCanvas.SetActive(false);
+        winCube.SetActive(false);
+        Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        winScreen.gameObject.SetActive(true);
+        winScreen.gameObject.SetActive(true);  
     }
 
 }
