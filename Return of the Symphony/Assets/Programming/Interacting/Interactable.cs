@@ -32,8 +32,8 @@ public class Interactable : MonoBehaviour
     public GameObject winCube;
     public GameObject otherCanvas;
 
-    //public AudioSource audioSource;
-    //public AudioClip musicClip;
+    public AudioSource audioSource;
+    
 
     
 
@@ -66,7 +66,8 @@ public class Interactable : MonoBehaviour
                     if (currentGrabbedInstrument == 5f)
                     {
                         operaBlock.SetActive(false);
-                        
+                        audioSource.Play();
+
                     }
                    
 
@@ -76,6 +77,7 @@ public class Interactable : MonoBehaviour
                     if (currentGrabbedInstrument == 5)
                     {
                         Win();
+                        
                     }
 
                     
