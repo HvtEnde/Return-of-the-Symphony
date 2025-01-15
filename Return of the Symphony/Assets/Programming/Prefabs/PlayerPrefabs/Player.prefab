@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1937321001144310612}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5079994, z: 0.19699813}
+  m_LocalPosition: {x: 0, y: 0.66, z: 0.19699813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -115,6 +115,7 @@ MonoBehaviour:
   instrumentSpawn: []
   winCube: {fileID: 0}
   otherCanvas: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1307286892700428703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,6 +283,7 @@ MonoBehaviour:
   instrumentSpawn: []
   winCube: {fileID: 0}
   otherCanvas: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &5033888679993724223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,7 +437,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 1.8
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4971253565190202066

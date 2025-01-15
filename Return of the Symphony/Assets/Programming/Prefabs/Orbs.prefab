@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1239210092367466372}
   m_Layer: 10
   m_Name: Pietje
-  m_TagString: Untagged
+  m_TagString: TrappedInstrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 348878274307324028}
   m_Layer: 10
   m_Name: Puk (1)
-  m_TagString: Untagged
+  m_TagString: TrappedInstrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 1587586703800620379}
   m_Layer: 10
   m_Name: Puk
-  m_TagString: Untagged
+  m_TagString: TrappedInstrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -244,7 +244,7 @@ Transform:
   m_GameObject: {fileID: 4703896580666701511}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 150.82, y: -5.05, z: -67.9}
+  m_LocalPosition: {x: 2.6, y: -3.44, z: 5.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 1754606369117281226}
   m_Layer: 10
   m_Name: cv
-  m_TagString: Untagged
+  m_TagString: TrappedInstrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -388,7 +388,7 @@ Transform:
   m_GameObject: {fileID: 5670505662801929587}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6133442, y: -3.8819377, z: 0.5157485}
+  m_LocalPosition: {x: -2.6133442, y: -3.89, z: 0.5157485}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 1461029211020134872}
   m_Layer: 10
   m_Name: Puk (2)
-  m_TagString: Untagged
+  m_TagString: TrappedInstrument
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -495,14 +495,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6046760677118564693}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 291.34, y: 14.8, z: -152.96}
+  m_LocalRotation: {x: -0, y: -0.24648428, z: -0, w: 0.96914685}
+  m_LocalPosition: {x: -2.31, y: -4.18, z: 5.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1897015871178076260}
   m_Father: {fileID: 4135438412793792005}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -28.539, z: 0}
 --- !u!33 &5272216115617230238
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -639,7 +639,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blokfluit
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8080343100533558606, guid: fdd23d5ca993a4249adca10d546ac55f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -713,7 +714,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7905620807287830478, guid: 87c554676f5e6964da0afcbb1aafdefd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -792,7 +794,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Viool
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1715615197946694397, guid: 91240b745ae246a4e8255b56b210c66e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -866,7 +869,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1740886368833259984, guid: 1e10cda71a559bc459d6dafba812e9c1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -940,7 +944,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trumpet
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2263130737732501534, guid: 3882493d04376ab48844bf7d900f126b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
