@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.Rendering.Universal;
@@ -21,11 +22,14 @@ public class Interactable : MonoBehaviour
     public Volume postProcessVolume;
     private ColorAdjustments colorAdjustments;
 
-    public Instruments instrumentInfo;
+   // public Instruments instrumentInfo;
     public int currentGrabbedInstrument;
     public bool[] instrument;
 
     public GameObject winScreen;
+    public GameObject operaBlock;
+    public GameObject[] instruments;
+    public Transform[] instrumentSpawn;
     
 
     public void Start()
@@ -52,7 +56,14 @@ public class Interactable : MonoBehaviour
                 {
                     maxSaturationLimit += 20;
                     Destroy(hit.transform.gameObject);
-                    currentGrabbedInstrument = instrumentInfo.GetComponent<Instruments>().instrument;
+                    currentGrabbedInstrument++;
+
+                    if (currentGrabbedInstrument == 5f)
+                    {
+                        operaBlock.SetActive(false);
+                        
+                    }
+                    //currentGrabbedInstrument = instrumentInfo.GetComponent<Instruments>().instrument;
                     //switch (currentGrabbedInstrument)
                     //{
                     //    case 0:
@@ -77,7 +88,7 @@ public class Interactable : MonoBehaviour
                 }
                 else if(hit.transform.tag == "WinCondition")
                 {
-                    
+                    Win();
                 }
             }
             
@@ -112,7 +123,9 @@ public class Interactable : MonoBehaviour
    
     public void Win()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
+        winScreen.gameObject.SetActive(true);
     }
 
 }
